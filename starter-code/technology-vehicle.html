@@ -1,32 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+    <!-- ============================================= -->
+    <!-- FONTS -->
+    <!-- ============================================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ============================================= -->
 
-  03 Space launch 101
+    <!-- ============================================= -->
+    <!-- STYLES -->
+    <!-- ============================================= -->
 
-  1
-  2
-  3
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/technology/technology.css" />
+    <link rel="stylesheet" href="../css/technology/queries.css" />
 
-  The terminology...
-  Launch vehicle
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body>
+    <nav class="nav-bar--main">
+      <img class="logo" src="assets/shared/logo.svg" />
+      <div class="horizontal-line"></div>
 
-  A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
-  payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
-  WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
-  it's quite an awe-inspiring sight on the launch pad!
-</body>
+      <ul class="nav-bar--elements">
+        <li>
+          <a
+            href="index.html
+        "
+            class="nav-text link nav-bar--link"
+          >
+            <span class="num">00</span>
+            <span class="text">HOME</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="destination-moon.html" class="nav-text link nav-bar--link">
+            <span class="num">01</span>
+            <span class="text">DESTINATION</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="crew-commander.html" class="nav-text link nav-bar--link">
+            <span class="num">02</span>
+            <span class="text">CREW</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="nav-text link nav-bar--link current-page">
+            <span class="num">03</span>
+            <span class="text">TECHNOLOGY</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <article class="main--technology">
+      <p class="space-launch heading--5">
+        <span class="webpage-num">03</span>Space launch 101
+      </p>
+
+      <main class="main--article">
+        <nav class="technology--navigation">
+          <button data-number="1" class="tech--nav tech--nav--active">
+            <p class="">1</p>
+          </button>
+          <button data-number="2" class="tech--nav"><p class="">2</p></button>
+          <button data-number="3" class="tech--nav"><p class="">3</p></button>
+        </nav>
+        <div class="technology--details">
+          <p class="normal">THE TECHNOLOGY...</p>
+          <p class="heading--3 tech-name">LAUNCH VEHICLE</p>
+          <p class="normal tech-bio">
+            A launch vehicle or carrier rocket is a rocket-propelled vehicle
+            used to carry a payload from Earth's surface to space, usually to
+            Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful
+            in operation. Standing 150 metres tall, it's quite an awe-inspiring
+            sight on the launch pad!
+          </p>
+        </div>
+        <img
+          class="technology--img"
+          src="assets/technology/image-launch-vehicle-portrait.jpg"
+          alt="picture of the technology"
+        />
+      </main>
+    </article>
+  </body>
 </html>

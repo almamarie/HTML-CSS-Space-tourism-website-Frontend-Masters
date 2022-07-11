@@ -7,11 +7,11 @@ body {
 
 .main--crew {
   max-width: 113.8rem;
-  margin-top: 7.6rem;
   display: grid;
   grid-template-columns: 44.4rem 56.807rem;
   gap: 12.593rem;
   margin: 0 auto;
+  margin-top: 7.6rem;
 }
 
 .crew--role {

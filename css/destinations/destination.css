@@ -10,6 +10,17 @@ body {
   margin: 0 auto;
   margin-top: 7.6rem;
 }
+.planet-description {
+  margin: auto auto;
+  margin-top: 6.4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 44.5rem);
+  gap: 15.7rem;
+}
+
+.webpage {
+  width: 100%;
+}
 
 .planets {
   display: flex;
@@ -27,13 +38,6 @@ body {
 
 .planet-name {
   margin-top: 3.7rem;
-}
-
-.planet-description {
-  margin-top: 6.4rem;
-  display: grid;
-  grid-template-columns: repeat(2, 44.5rem);
-  gap: 15.7rem;
 }
 
 .short-description {
