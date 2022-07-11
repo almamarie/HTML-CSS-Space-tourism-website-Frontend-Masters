@@ -1,0 +1,28 @@
+{
+  "name": "space-tourism-website-main",
+  "version": "1.0.0",
+  "description": "solution to the space-tourism-website-main frontend coding challenge at the Frontend Master website",
+  "main": "js/destinations/controller/controller.js",
+  "scripts": {
+    "start": "parcel starter-code/index.html",
+    "build": "parcel build starter-code/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almamarie/HTML-CSS-Space-tourism-website-Frontend-Masters.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Louis Marie Atoluko Ayariga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/almamarie/HTML-CSS-Space-tourism-website-Frontend-Masters/issues"
+  },
+  "homepage": "https://github.com/almamarie/HTML-CSS-Space-tourism-website-Frontend-Masters#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  }
+}

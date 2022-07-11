@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <!-- ============================================= -->
+    <!-- FONTS -->
+    <!-- ============================================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ============================================= -->
+
+    <!-- ============================================= -->
+    <!-- STYLES -->
+    <!-- ============================================= -->
+
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/destinations/destination.css" />
+
+
+    
+
+
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body>
+    <nav class="nav-bar--main">
+      <img class="logo" src="assets/shared/logo.svg" />
+      <div class="horizontal-line"></div>
+
+      <ul class="nav-bar--elements">
+        <li>
+          <a href="index.html
+          " class="nav-text link nav-bar--link">
+            <span class="num">00</span>
+            <span class="text">HOME</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="nav-text link nav-bar--link current-page">
+            <span class="num">01</span>
+            <span class="text">DESTINATION</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="crew-commander.html" class="nav-text link nav-bar--link">
+            <span class="num">02</span>
+            <span class="text">CREW</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="technology-vehicle.html" class="nav-text link nav-bar--link">
+            <span class="num">03</span>
+            <span class="text">TECHNOLOGY</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <p class="heading--5">
+        <span class="webpage-num">01</span>Pick your destination
+      </p>
+      
+      <article class="planet-description">
+        <img src="assets/destination/image-moon.webp" class="planet-img" alt="picture of the planet"></img>
+        <div class="planet-details">
+          <nav class="planets-navigation">
+            <ul class="planets">
+              <li>
+                <button data-name="moon" class="planet moon nav-text btn current-btn">MOON</button>
+              </li>
+              <li>
+                <button data-name="mars" class="planet mars nav-text btn">MARS</button>
+              </li>
+              <li>
+                <button data-name="europa" class="planet europa nav-text btn">EUROPA</button>
+              </li>
+              <li>
+                <button data-name="titan" class="planet titan nav-text btn">Titan</button>
+              </li>
+            </ul>
+          </nav>
+          <p class="planet-name heading--2">MOON</p>
+          <p class="short-description normal">
+            See our planet as you’ve never seen it before. A
+            perfect relaxing trip away to help regain perspective and come back
+            refreshed. While you’re there, take in some history by visiting the Luna 2
+            and Apollo 11 landing sites.
+          </p>
+
+          <div class="divider"></div>
+          <aside class="travel-distance">
+            <div class="distance">
+              <p class="subheading--2">Avg. distance</p>
+              <p class="subheading--1 distance--value">384,400 km</p>
+            </div>
+            <div class="travel">
+              <p class="subheading--2">Est. travel time</p>
+              <p class="subheading--1 travel--value">3 Days</p>
+            </div>
+          </aside>
+        </div>
+      </article>
+    </main>
+        
+    <!-- SCRIPTS -->
+
+    <script type="module" src="../js/controller.js"></script>
+    <script type="module" src="../js/view/destinationView.js"></script>
+  </body>
+</html>

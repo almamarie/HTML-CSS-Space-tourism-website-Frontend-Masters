@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+  max-width: 100vw;
+  background-image: url("../../starter-code/assets/crew/background-crew-desktop.jpg");
+  background-size: cover;
+}
+
+.main--crew {
+  max-width: 113.8rem;
+  margin-top: 7.6rem;
+  display: grid;
+  grid-template-columns: 44.4rem 56.807rem;
+  gap: 12.593rem;
+  margin: 0 auto;
+}
+
+.crew--role {
+  margin-top: 15.4rem;
+}
+
+.crew--name {
+  margin-top: 1.5rem;
+}
+.crew--bio {
+  margin-top: 2.4rem;
+}
+
+.crew--nav {
+  margin-top: 12rem;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.crew--nav--btn {
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  opacity: 0.17;
+}
+
+.crew--nav--btn:hover {
+  opacity: 0.5;
+}
+
+.crew--nav--active {
+  opacity: 1;
+}
+
+.crew--img {
+  width: 56.807rem;
+  height: 71.2rem;
+}
