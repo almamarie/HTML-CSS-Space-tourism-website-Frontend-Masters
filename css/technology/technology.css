@@ -35,6 +35,7 @@ body {
   width: 8rem;
   height: 8rem;
   border-radius: 50%;
+  font-size: 3.2rem;
 
   display: flex;
   align-items: center;
@@ -50,9 +51,9 @@ body {
   border: 2px solid rgba(255, 255, 255, 1);
 }
 
-.tech--nav p {
+/* .tech--nav p {
   font-size: 3.2rem;
-}
+} */
 
 .technology--details {
   margin-right: 13rem;

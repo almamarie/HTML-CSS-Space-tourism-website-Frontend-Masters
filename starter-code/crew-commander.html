@@ -74,10 +74,10 @@
     </nav>
 
     <main class="main--crew">
-      <p class="heading--5">
-        <span class="webpage-num">02</span>Pick your destination
-      </p>
       <article class="crew--details">
+        <p class="heading--5">
+          <span class="webpage-num">02</span>Pick your destination
+        </p>
         <p class="crew--role heading--4">COMMANDER</p>
         <p class="crew--name heading--3">Douglas Hurley</p>
         <p class="crew--bio normal">
@@ -89,14 +89,17 @@
         <nav class="crew--nav">
           <button
             data-name="commander"
-            class="crew--nav--btn crew--nav--active"
+            class="commander crew--nav--btn crew--nav--active"
           ></button>
           <button
             data-name="mission specialist"
-            class="crew--nav--btn"
+            class="mission crew--nav--btn 2"
           ></button>
-          <button data-name="pilot" class="crew--nav--btn"></button>
-          <button data-name="flight engineer" class="crew--nav--btn"></button>
+          <button data-name="pilot" class="pilot crew--nav--btn 3"></button>
+          <button
+            data-name="flight engineer"
+            class="flight crew--nav--btn 4"
+          ></button>
         </nav>
       </article>
 
@@ -106,5 +109,9 @@
         alt="picture of crew member"
       />
     </main>
+
+    <!-- <script type="module" src="../js/controller/crewController.js"></script>
+    <script type="module" src="../js/view/crewView.js"></script> -->
+    <script type="module" src="../js/generalController.js"></script>
   </body>
 </html>

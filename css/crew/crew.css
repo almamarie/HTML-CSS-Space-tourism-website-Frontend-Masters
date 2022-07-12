@@ -8,7 +8,7 @@ body {
 .main--crew {
   max-width: 113.8rem;
   display: grid;
-  grid-template-columns: 44.4rem 56.807rem;
+  grid-template-columns: 1fr 56.807rem;
   gap: 12.593rem;
   margin: 0 auto;
   margin-top: 7.6rem;
@@ -31,15 +31,18 @@ body {
   gap: 2.4rem;
 }
 
-.crew--nav--btn {
+.crew--nav--btn,
+.crew--nav--btn:link,
+.crew--nav--btn:visited {
   padding: 10px;
   border-radius: 50%;
   border: none;
   opacity: 0.17;
 }
 
-.crew--nav--btn:hover {
-  opacity: 0.5;
+.crew--nav--btn:hover,
+.crew--nav--btn:active {
+  opacity: 1;
 }
 
 .crew--nav--active {
