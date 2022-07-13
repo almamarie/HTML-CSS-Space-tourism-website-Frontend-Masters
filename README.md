@@ -58,7 +58,7 @@ Some concepts I need to develop are outlined below:
 
 - I need to understand how to develop multipage websites with only JS, HTML and CSS. I struggled with this so much that could complete it. Google search only showed me "developing multipage website with REACT" not Javascript only
 
--I also need to understand how to create multipage websites with the MVP architecture. Because I couldn't solve the above problem (creating multipage websites with JS only), I could experiment with this. I successfully got it to work for only 1 page but the momment the page changes, I get an error.
+- I also need to understand how to create multipage websites with the MVP architecture. Because I couldn't solve the above problem (creating multipage websites with JS only), I could experiment with this. I successfully got it to work for only 1 page but the momment the page changes, I get an error.
 
 - The final this is how to check for changes in screen size (responsive design) with JS DOM. This project required a different image (landscape and portrait) for mobile/tablet and desktop designs but I couldn't do it.
 
