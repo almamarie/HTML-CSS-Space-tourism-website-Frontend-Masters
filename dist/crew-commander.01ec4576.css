@@ -1,0 +1,58 @@
+body {
+  height: 100vh;
+  max-width: 100vw;
+  background-image: url("background-crew-desktop.81c39be9.jpg");
+  background-size: cover;
+}
+
+.main--crew {
+  max-width: 113.8rem;
+  display: grid;
+  grid-template-columns: 1fr 56.807rem;
+  gap: 12.593rem;
+  margin: 0 auto;
+  margin-top: 7.6rem;
+}
+
+.crew--role {
+  margin-top: 15.4rem;
+}
+
+.crew--name {
+  margin-top: 1.5rem;
+}
+
+.crew--bio {
+  margin-top: 2.4rem;
+}
+
+.crew--nav {
+  margin-top: 12rem;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.crew--nav--btn,
+.crew--nav--btn:link,
+.crew--nav--btn:visited {
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  opacity: 0.17;
+}
+
+.crew--nav--btn:hover,
+.crew--nav--btn:active {
+  opacity: 1;
+}
+
+.crew--nav--active {
+  opacity: 1;
+}
+
+.crew--img {
+  width: 56.807rem;
+  height: 71.2rem;
+}
+
+/*# sourceMappingURL=crew-commander.01ec4576.css.map */
