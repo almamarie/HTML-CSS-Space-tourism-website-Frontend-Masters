@@ -2,7 +2,7 @@
   "name": "space-tourism-website-main",
   "version": "1.0.0",
   "description": "solution to the space-tourism-website-main frontend coding challenge at the Frontend Master website",
-  "main": "js/destinations/controller/controller.js",
+  "default": "starter-code/index.html",
   "scripts": {
     "start": "parcel starter-code/index.html",
     "build": "parcel build starter-code/index.html"
