@@ -50,17 +50,17 @@ I really learned a lot while working on this project. My HTML5 and CSS3 and my J
 
 - I have learned that I need to always take a look at all the designs (desktop, tablet, and mobile) before I start designing. I finished with my design and when I was making the pages to respond to mobile and tablet also, I realised that I had to change so many things. At some point, I had to go back and redesign one of the pages all over again. I need to add that to my project planning phase.
 
-- I also learned that I need to find a proper planning system/tool for my projects. This was also tied to getting enough screens for my coding because I have been using my laptop's screen only and I always need to have the code I am writing (HTML and CSS always opened when I am designing and Javascript also), I also needed to have the design file(figma) always opened so I can alwayd refer and finally, the output of my code on another screen. Because I didn't have these screens, I kept going backa and forth whcih always got me confused. I finished the project in 4 days but I believe I could have done it in a shorter time if I had these sorted out.
+- I also learned that I need to find a proper planning system/tool for my projects. This was also tied to getting enough screens for my coding because I was using my laptop's screen only and I always needed to have the code I was writing (HTML and CSS always opened when designing and Javascript also), I also needed to have the design file(figma) always opened so I could always refer and finally, the output of my code on another screen. Because I didn't have these screens, I kept going back and forth which always got me confused and going around in circles trying to get the screen I needed. I finished the project in 4 days but I believe I could have done it in a shorter time if I had these sorted out.
 
 ### Continued development
 
 Some concepts I need to develop are outlined below:
 
-- I need to understand how to develop multipage websites with only JS, HTML and CSS. I struggled with this so much that could complete it. Google search only showed me "developing multipage website with REACT" not Javascript only
+- I need to understand how to develop multipage websites with only JS, HTML and CSS. I struggled with this so much that could not complete it. Google search only showed me "developing multipage website with REACT" not Javascript only
 
-- I also need to understand how to create multipage websites with the MVP architecture. Because I couldn't solve the above problem (creating multipage websites with JS only), I could experiment with this. I successfully got it to work for only 1 page but the momment the page changes, I get an error.
+- I also need to understand how to create multipage websites with the MVP architecture. Because I couldn't solve the above problem (creating multipage websites with JS only), I could not experiment with this. It only works for the first page but the momment the page changes, I get an error.
 
-- The final this is how to check for changes in screen size (responsive design) with JS DOM. This project required a different image (landscape and portrait) for mobile/tablet and desktop designs but I couldn't do it.
+- The final thing is how to check for changes in screen size (responsive design) with JS DOM. This project required a different image (landscape and portrait) for mobile/tablet and desktop designs but I couldn't do it.
 
 ## Author
 
